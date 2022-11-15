@@ -1,0 +1,138 @@
+/* Fuente */
+h2,a,p{
+    font-family: Arial;
+}
+
+/* CABEZERA */
+*{margin:0; padding:0;}
+
+body {
+    background:#fffffa;
+}
+
+header {
+    font-family: Arial;
+    width:100%;
+    overflow:hidden;
+    background:#587c6c;
+    margin-bottom:20px;
+}
+
+.margenes {
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+    overflow:hidden;
+}
+
+header .logo {
+    color:#f2f2f2;
+    font-size:45px;
+    line-height:200px;
+    float:left;
+}
+
+header nav {
+    float:right;
+    line-height:200px;
+}
+
+header nav a{
+    display: inline-block;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 20px;
+    line-height:normal;
+    font-size: 20px;
+    font-weight:bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    border-radius:50px;
+}
+
+header nav a:hover{
+    background-color:#212f29;
+}
+
+
+.idc-box {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border:1px solid #aaa;
+    display:table;
+    font-size:85%;
+    margin-bottom:1em;
+    padding:10px;
+    width:auto;
+}
+
+/* INDICE CONFIGURACION */
+.idc-indice {
+    font-size:200%;
+}
+
+.idc-box .idc-indice {
+    font-weight:700;
+    text-align:center;
+}
+
+.A{
+    padding:30px 50px 10px;
+    list-style: outside none none !important;
+}
+
+.B{
+    padding:0px 70px 10px;
+    list-style: outside none none !important;
+}
+
+.C{
+    padding:0px 100px 10px;
+    list-style: outside none none !important;
+}
+
+table{
+    border: 2px solid black;
+    background-color:#DCDEE6;
+}
+
+
+/* Boton arriba */
+html {
+    scroll-behavior: smooth;
+}
+
+.btn-scrolltop {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    padding: 15px 20px;
+    background:#587c6c;
+    color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+    cursor: pointer;
+    transform: translateY(100px);
+    transition: 0.3s;
+}
+
+.btn-scrolltop-on {
+    transform: translateY(0);
+}
+
+/* Foto Contacto */
+
+.foto{
+    margin-left: 10%;
+    width: 300px;
+    height: 300px;
+    background-image: url(foto_perfil.webp);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.marg2{
+    font-size: 130%;
+    margin: 50px 50px;
+    position: fixed;
+}
