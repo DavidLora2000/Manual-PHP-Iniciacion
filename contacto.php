@@ -13,7 +13,7 @@
           <nav>
             <a href="../index.php">Inicio</a>
             <a href="../contacto.php">Contacto</a>
-            <a href="#">GitHub</a>
+            <a href="https://github.com/DavidLora2000?tab=repositories">GitHub</a>
           </nav>
         </div>
       </div>
@@ -22,6 +22,6 @@
     <a class="marg2">Hola Buenas; </br> Esta página ha sido creada para un trabajo de Instalación de Aplicaciones Web 
                      de 2º Grado Superior de Administración de Sistemas Operativos en Red,
                      en esta página hace una referencia a una guía sobre el PHP de Iniciación.</br></a>  
-    <a style="font-size: 110%">Contacto: <a style="font-size: 110%" href="mailto:losada_aliesma20@iesmedinaazahara.es">David Lora Salido</a>
+    <a style="font-size: 110%">Contacto: <a style="font-size: 110%" href="https://github.com/DavidLora2000?tab=repositories">David Lora Salido</a>
     </body>
 </html>
